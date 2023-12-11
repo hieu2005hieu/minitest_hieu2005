@@ -1,0 +1,73 @@
+.mani{
+    margin: 0 auto;
+    background: #FFEAE3;
+    border: 1px solid black;
+    width: 800px;
+    height: 100%;
+    margin-top: 100px;
+    border-radius: 20px;
+    button{
+        cursor: pointer;
+    background-color: #ff5b6a;
+    border-radius: 15px;
+    width: 80px;
+    border: none;
+    transition: 0.4s;
+    outline: none;
+    padding: 9px 9px;
+    margin-left: 5px;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(226, 70, 83);
+}
+input{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 25px;
+    width: 253px;
+    padding: 5px 15px;
+    background-color: rgba(169, 169, 169, 0.308);
+    border-radius: 20px;
+}
+input:hover{
+    background-color: rgba(169, 169, 169, 0.658);
+}
+    h2{
+        text-align: center;
+        font-size: 50px;
+        color: #ff5b6a;
+    }
+    h3{
+        text-align: center;
+        color: #474646;
+        font-size: 25px;
+    }
+    .container{
+    text-align: center;
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    .btn{
+        display: none;
+    }
+}
+.title:hover{
+    .btn{
+        display: block;
+    }
+}
+.table{
+    text-align: center;
+    margin:  0 auto;
+    margin-top: 40px;
+    width: 100%;
+}
+}
